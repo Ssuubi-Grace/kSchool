@@ -50,31 +50,43 @@ export default function Home() {
       <QuickStats />
 
       {/* Welcome Section */}
-      <WelcomeSection />
+      <section className="py-20 bg-white">
+        <WelcomeSection />
+      </section>
 
       {/* Why Choose Us Section */}
-      <WhyChooseUs />
+      <section className="py-20 bg-gray-50">
+        <WhyChooseUs />
+      </section>
 
       {/* Programs Section */}
-      <ProgramsSection />
+      <section className="py-20 bg-white">
+        <ProgramsSection />
+      </section>
 
       {/* Testimonials Section */}
-      <section className="py-24 bg-white">
+      <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 md:px-8">
           <div className="text-center mb-16">
             <h2 className="text-5xl md:text-6xl text-[#0A0350] font-bold mb-6">
               Parent Testimonials
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Hear from families whose children's lives have been transformed
+              Hear from families whose children&apos;s lives have been transformed
             </p>
           </div>
-          <TestimonialsCarousel />
+          <div className="flex justify-center">
+            <div className="w-full max-w-6xl">
+              <TestimonialsCarousel />
+            </div>
+          </div>
         </div>
       </section>
 
       {/* CTA Section */}
-      <CTASection />
+      <section className="py-20">
+        <CTASection />
+      </section>
 
       {/* Statistics Section */}
       <section className="py-20 bg-gradient-to-r from-brand-blue to-brand-blue/90 text-white">
@@ -108,7 +120,9 @@ export default function Home() {
       </section>
 
       {/* Featured News */}
-      <FeaturedNews />
+      <section className="py-20 bg-gray-50">
+        <FeaturedNews />
+      </section>
     </div>
   );
 }
