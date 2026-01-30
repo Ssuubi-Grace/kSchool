@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.2/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="stylesheet" href="src/index.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <!-----Top nav-->
+      <div class="navbar bg-base-100">
+        <div class="navbar-start">
+          <a class="btn btn-ghost text-xl" href="index.html">
+            <img
+              src="src/IMG/kutya_Mukama_Logo.png"
+              alt="Logo"
+              class="w-[60px]"
+            />
+            <span class="text-[#0A0350] font-bold">KM</span>
+          </a>
+        </div>
+        <div class="navbar-center">
+          <div class="dropdown md:hidden">
+            <label tabindex="0" class="btn btn-ghost btn-circle">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h16M4 18h7"
+                ></path>
+              </svg>
+            </label>
+            <ul
+              tabindex="0"
+              class="menu menu-compact dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+            >
+              <li class="my-hover-class">
+                <a href="index.html" class="text-dark-blue">Homepage</a>
+              </li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="classes.html">Classes</a></li>
+              <li><a href="limitations.html">Challenges</a></li>
+              <li><a href="student_profile.html">Children's Profile</a></li>
+              <li><a href="gallery.html">Gallery</a></li>
+            </ul>
+          </div>
+          <div class="hidden md:flex">
+            <a
+              class="btn btn-ghost btn-normal mr-2 hover:text-[#FF0B0B]"
+              href="index.html"
+              >Homepage</a
+            >
+            <a
+              class="btn btn-ghost btn-normal mr-2 hover:text-[#FF0B0B]"
+              href="about.html"
+              >About</a
+            >
+            <a class="btn btn-ghost btn-normal mr-2" href="classes.html"
+              >Classes</a
+            >
+            <a class="btn btn-ghost btn-normal mr-2" href="limitations.html"
+              >Challenges</a
+            >
+            <a class="btn btn-ghost btn-normal mr-2" href="student_profile.html"
+              >Children's Profile</a
+            >
+            <a class="btn btn-ghost btn-normal" href="gallery.html">Gallery</a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="w-full bg-[#0A0350] text-white py-4">
+      <p class="text-2xl font-bold text-center mb-2">
+        NABUTAKA GITA KUTYA MUKAMA NURSERY AND PRIMARY SCHOOL LIMITED
+      </p>
+      <p class="font-bold text-center italic">Work hard for Success</p>
+    </div>
+
+    <main class="flex-grow">
+      <div
+        class="hero min-h-screen bg-center bg-cover"
+        style="background-image: url('path/to/your/video.mp4')"
+      >
+        <video
+          autoplay
+          muted
+          loop
+          src="src/VID/baby.mp4"
+          class="w-full object-cover h-full"
+        ></video>
+        <div class="hero-overlay bg-opacity-60"></div>
+        <div class="hero-content text-center text-white px-5">
+          <h1 class="text-4xl md:text-5xl font-bold mb-8">
+            Empowering Children Through Quality Education
+          </h1>
+          <p class="font-semibold mb-8">
+            At Kutya Mukama, we provide a nurturing environment and essential
+            skills to help children thrive.
+          </p>
+          <a href="#donate" class="btn btn-primary">Donate Now</a>
+        </div>
+      </div>
+
+      <div class="text-center my-8">
+        <h1 class="text-3xl md:text-4xl text-[#0A0350] font-bold fly-and-move">
+          39 YEARS OF PROVIDING QUALITY EDUCATION
+        </h1>
+      </div>
+
+      <div class="container mx-auto px-4 text-black">
+        <p class="`mb-4">
+          Welcome to Kutya Mukama Nursery and Primary School. A private
+          elementary school licensed and registered by the Ministry of Education
+          and Sports. Located in Gitta village, Kasangati Town Council, Wakiso
+          district, 5Km off Gayaza-Zirobwe Road, the school stands as a beacon
+          of learning offering a warm and welcoming environment. Our dedicated
+          team of teaching and non-teaching staff ensures a nurturing and
+          conducive atmosphere for any child's growth. At Kutya Mukama Nursery
+          and Primary School, we go beyond academics, providing a rich tapestry
+          of activities encompassing games, sports, life skills, and talent
+          grooming.
+          <span class="hidden-content">
+            Choose Kutya Mukama Nursery and Primary School, where every child is
+            given the wings to soar. Join us on the path where quality education
+            begins. Watch your child blossom into a confident and capable
+            individual. Kutya Mukama Nursery and Primary School, where education
+            meets excellence without regret.
+          </span>
+        </p>
+        <div class="text-center">
+          <button class="show-more-btn">Learn More</button>
+        </div>
+      </div>
+
+      <div class="founders-message container mx-auto py-8 px-4 text-black">
+        <h2 class="text-3xl text-red-500 font-bold text-center mb-10">
+          A Message from Our Founder & Director
+        </h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div class="flex flex-col items-center mb-8 md:mb-0">
+            <h2 class="text-[#0A0350] font-bold mb-2 text-lg md:text-xl">
+              FOUNDER'S MESSAGE
+            </h2>
+            <p class="text-base md:text-lg">
+              I'm Sarah Muwonge, the founder and director of Kutya Mukama
+              Nursery and Primary School. My passion for education has always
+              driven me, and I believe every child deserves the opportunity to
+              learn and thrive. When I moved to this village after marriage, I
+              realized the lack of educational opportunities for the children
+              here. With the unwavering support of my husband, we decided to
+              take a leap of faith. I left my job in the city, and together, we
+              embarked on a mission to establish Kutya Mukama Nursery and
+              Primary School, the first school in this community.
+            </p>
+          </div>
+
+          <div class="p-2 md:p-4">
+            <img
+              src="src/IMG/founder (3).jpg"
+              alt="New Image 9"
+              class="w-full h-auto object-cover rounded-lg shadow-md"
+            />
+          </div>
+          <!--
+<div class="flex justify-center mb-8 md:mb-0">
+<img
+src="src/IMG/founder.jpg"
+alt="Founder, Sarah Muwonge"
+class="w-full h-auto object-cover rounded-lg shadow-md"
+/>
+</div>
+-->
+          <div class="flex justify-center mb-8 md:mb-0">
+            <img
+              src="src/IMG/uncle.jpg"
+              alt="Director"
+              class="w-full h-auto object-cover rounded-lg shadow-md"
+            />
+          </div>
+          <div class="flex flex-col items-center">
+            <h2 class="text-[#0A0350] font-bold mb-2 text-lg md:text-xl">
+              DIRECTOR'S MESSAGE
+            </h2>
+            <p class="text-base md:text-lg">
+              As the director, I am dedicated to ensuring Kutya Mukama Nursery
+              and Primary School provides a nurturing environment, quality
+              education, and essential skills for our students. Witnessing their
+              growth and potential blossom brings immense joy and motivates us
+              to keep striving for excellence. We believe education is the key
+              to unlocking a brighter future for our children and the community
+              as a whole.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <h2 class="text-2xl text-[#0A0350] font-bold text-center my-8">
+        WHAT WE OFFER
+      </h2>
+
+      <div
+        class="container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mx-auto px-4"
+      >
+        <div class="item p-4 border border-2 border-[#0A0350] rounded-lg">
+          <h4 class="text-xl text-[#0A0350] font-bold mb-2">
+            Quality Education
+          </h4>
+          <p>
+            At our school, we are committed to providing every student with a
+            high-quality education that ignites their curiosity, fosters their
+            talents, and empowers them to reach their full potential. Our
+            classrooms are vibrant spaces where dedicated teachers guide
+            students through a rigorous academic curriculum that encompasses
+            essential skills, knowledge, and values. We believe that every child
+            deserves access to a world-class education, regardless of their
+            background or circumstances.
+          </p>
+        </div>
+        <div class="item p-4 border border-2 border-[#0A0350] rounded-lg">
+          <h4 class="text-xl text-[#0A0350] font-bold mb-2">
+            Games and Sports
+          </h4>
+          <p>
+            Our school recognizes the importance of physical activity and sports
+            in a child's development. We offer a wide range of sports and
+            recreational activities to promote physical fitness, teamwork, and
+            sportsmanship. Whether it's on the soccer field, in the basketball
+            court, or during a friendly game of tag, our students learn valuable
+            life skills that extend beyond the classroom.
+          </p>
+        </div>
+        <div class="item p-4 border border-2 border-[#0A0350] rounded-lg">
+          <h4 class="text-xl text-[#0A0350] font-bold mb-2">Talent Grooming</h4>
+          <p>
+            We believe that every child possesses unique talents waiting to be
+            discovered and nurtured. Our school offers a variety of programs and
+            activities designed to identify and develop these talents. From
+            music and arts to science and technology, we provide opportunities
+            for students to explore their interests and hone their skills,
+            ensuring they grow into well-rounded individuals ready to make a
+            positive impact on the world.
+          </p>
+        </div>
+        <div class="item p-4 border border-2 border-[#0A0350] rounded-lg">
+          <h4 class="text-xl text-[#0A0350] font-bold mb-2">
+            Life Skills Development
+          </h4>
+          <p>
+            In addition to academic excellence, we prioritize the development of
+            essential life skills that prepare our students for success in an
+            ever-changing world. Our comprehensive life skills programs teach
+            practical abilities such as critical thinking, problem-solving,
+            communication, and emotional intelligence. We equip our students
+            with the tools they need to navigate life's challenges and seize its
+            opportunities with confidence and resilience.
+          </p>
+        </div>
+        <div class="item p-4 border border-2 border-[#0A0350] rounded-lg">
+          <h4 class="text-xl text-[#0A0350] font-bold mb-2">
+            Conducive Environment
+          </h4>
+          <p>
+            Our school campus provides a safe, inclusive, and nurturing
+            environment where every student feels valued and respected. We have
+            created a welcoming atmosphere that fosters a sense of belonging and
+            encourages positive interactions among students, teachers, and
+            staff. Our commitment to maintaining a conducive learning
+            environment ensures that every child can thrive academically,
+            socially, and emotionally.
+          </p>
+        </div>
+        <div class="item p-4 border border-2 border-[#0A0350] rounded-lg">
+          <h4 class="text-xl text-[#0A0350] font-bold mb-2">Facilities</h4>
+          <p></p>
+        </div>
+      </div>
+    </main>
+    <!---map and contact-->
+    <section
+      class="container grid grid-cols-1 gap-4 md:grid-cols-2 rounded-2xl mt-8 mb-8"
+    >
+      <div class="col mt-5 ml-5 md:ml-0">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d83677.63798236546!2d32.56618296812144!3d0.49285622778358146!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x177c4bdb92f9b197%3A0x9fba89992fd4c08e!2sGayaza%20-%20Zirobwe%20Road!3m2!1d0.5734871!2d32.646922599999996!4m5!1s0x177db314f432753d%3A0x6eb42ab938d25afd!2sGitta%20Trading%20Centre%2C%20FH6Q%2BRPR%2C%20Nangabo%20-%20Mekenke%20Road%2C%20Greenfield%20Rd%2C%20Greenfield%20Rd%2C%20Kampala!3m2!1d0.45960829999999997!2d32.5868484!5e0!3m2!1sen!2sug!4v1721330868411!5m2!1sen!2sug"
+          width="100%"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+
+      <div class="col mt-5 md:ml-40">
+        <h2 class="font-bold text-[#0A0350] text-2xl">Contact Us</h2>
+        <p class="mt-4 text-black">
+          You can reach out to us via email at
+          <a href="mailto:kutyamukamanurseryandprimarysc@gmail.com" class="mail"
+            >kutyamukamanurseryandprimarysc@gmail.com</a
+          >
+          or through the contact form below.
+        </p>
+
+        <form
+          id="contactForm"
+          method="post"
+          action="https://api.web3forms.com/submit"
+          class="mt-4"
+        >
+          <input
+            type="hidden"
+            name="access_key"
+            value="5cddf98c-469f-4d6d-accd-ee16d05c56d6"
+          />
+          <input
+            type="text"
+            name="fullname"
+            placeholder="Your Name"
+            class="form-input mb-3 bg-gray-200 border border-[#0A0350] rounded w-full"
+          /><br />
+          <input
+            type="email"
+            name="email"
+            placeholder="Your Email"
+            class="form-input mb-3 bg-gray-200 border border-[#0A0350] rounded w-full"
+          /><br />
+          <input
+            type="text"
+            name="phone"
+            placeholder="phone"
+            class="form-input mb-3 bg-gray-200 border border-[#0A0350] rounded w-full"
+          /><br />
+          <input
+            type="text"
+            name="subject"
+            placeholder="subject"
+            class="form-input mb-3 bg-gray-200 border border-[#0A0350] rounded w-full"
+          /><br />
+          <textarea
+            rows="6"
+            name="message"
+            placeholder="Your Message"
+            class="form-input mb-3 bg-gray-200 border border-[#0A0350] rounded w-full"
+          ></textarea
+          ><br />
+          <button
+            type="submit"
+            class="form-button bg-[#0A0350] text-white py-2 px-4 rounded font-semibold hover:bg-blue-700"
+          >
+            Send Message
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <!----
+<img src="src/IMG/brocure.png" alt="" />
+->
+<!----footer-->
+
+    <footer class="footer p-10 bg-[#0A0350] text-base-content">
+      <!-- <nav>
+<h6 class="footer-title">Services</h6>
+<a class="link link-hover">Branding</a>
+<a class="link link-hover">Design</a>
+<a class="link link-hover">Marketing</a>
+<a class="link link-hover">Advertisement</a>
+</nav>-->
+      <nav>
+        <h6 class="footer-title">INSIGTFUL LINKS</h6>
+        <a class="link link-hover">About us</a>
+        <a class="link link-hover">Contact</a>
+      </nav>
+      <nav>
+        <h6 class="footer-title">Social</h6>
+        <div class="grid grid-flow-col gap-4">
+          <a
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              class="fill-current"
+            >
+              <path
+                d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"
+              ></path></svg
+          ></a>
+          <a
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              class="fill-current"
+            >
+              <path
+                d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"
+              ></path></svg
+          ></a>
+          <a
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              class="fill-current"
+            >
+              <path
+                d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"
+              ></path></svg
+          ></a>
+        </div>
+      </nav>
+    </footer>
+  </body>
+</html>

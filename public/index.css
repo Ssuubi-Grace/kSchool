@@ -1,0 +1,293 @@
+/*body {
+  background-color: #fff; 
+}*/
+
+:root {
+  --fallback-b1: #fff; 
+}
+
+
+.my-hover-class:hover a {
+    color: #FF0B0B;
+}
+
+/* Navbar link hover effect */
+.navbar a:hover {
+  background-color: #FF0B0B; /* Background color on hover */
+  color: white !important; /* Force text color for active link */
+}
+
+/* Active link styling */
+.navbar a.active {
+  background-color: #FF0B0B; /* Background color for active link */
+  color: white !important; /* Force text color for active link */
+}
+
+/* Header position*/
+
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000; /* Adjust z-index as needed */
+  background-color: #f8f9fa; /* Ensures the background color covers the entire header */
+  box-shadow: 0 4px 2px -2px gray; /* Optional: Adds a subtle shadow to distinguish the header from content */
+  padding-bottom: 1px;
+
+}
+.school{
+  border-bottom-left-radius: px; /* Adjust the radius value as needed */
+  border-bottom-right-radius: px; /* Adjust the radius value as needed */
+}
+
+/* Add some padding to the top of your main content to prevent it from being hidden behind the header */
+body {
+  padding-top: 70px; /* Adjust based on the height of your header */
+}
+
+
+
+
+
+.image-wrapper img {
+  /* Remove existing styles (if any) */
+  width: 100%; /* Set image width to 100% of its container */
+  object-fit: cover; /* Crop image to fit container dimensions */
+}
+
+/* Custom styles for the navigation bar and menu items */
+.navbar a,
+.navbar .dropdown-content a,
+.menu a {
+  color: #0A0350 !important; /* Ensure it applies by using !important */
+}
+
+.navbar .dropdown-content a:hover,
+.navbar a:hover,
+.menu a:hover {
+  color: #0A0350; /* This will keep the hover color consistent */
+}
+
+/* Ensuring the mobile view dropdown items have the desired color */
+.menu-compact .menu-item a {
+  color: #0A0350 !important;
+}
+
+/* Ensuring the dropdown items have the desired color */
+.menu-compact .menu-item a:hover {
+  color: #0A0350 !important;
+}
+
+/* 35 Years of providing*/
+@keyframes flyAndMove {
+            0% {
+                opacity: 0;
+                transform: translateX(-100%);
+            }
+            50% {
+                opacity: 1;
+                transform: translateX(0);
+            }
+            100% {
+                transform: translateX(100%);
+            }
+        }
+
+        .fly-and-move {
+            display: inline-block;
+            animation: flyAndMove 5s ease-in-out infinite;
+        }
+
+        .text-center {
+            text-align: center;
+        }
+
+        .my-8 {
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .text-3xl {
+            font-size: 1.875rem; /* 30px */
+        }
+
+        .md\:text-4xl {
+            font-size: 2.25rem; /* 36px */
+        }
+
+        .text-\[\#0A0350\] {
+            color: #0A0350;
+        }
+
+        .font-bold {
+            font-weight: bold;
+        }
+
+        /*WELCOME ON HOME PAGE*/
+
+        .container {
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 16px;
+      color: black;
+    }
+    .hidden-content {
+      display: none;
+    }
+    .show-more-btn {
+      cursor: pointer;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      text-align: center;
+      font-size: 16px;
+    }
+    /*ABOUT IMAGE BG*/
+    .absolute {
+  background-color: rgba(0, 0, 0, 0.5); /* Adjust opacity as needed */
+}
+  @keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+
+
+
+      .copyright {
+        margin-top: 20px;
+        margin-bottom: 0;
+        color: #0A0350;
+        background-color:#ffffff ;
+        font-weight: bold;
+        text-align: center;
+
+      }
+
+      /*GALL CAURASEL*/
+      .carousel {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.carousel-inner {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.carousel-item {
+  flex: 0 0 100%;
+  position: relative;
+}
+
+.carousel-item img {
+  width: 100%;
+  height: auto;
+}
+
+.carousel-caption {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 50px;
+  height: 50px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  text-align: center;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.carousel-control-prev {
+  left: 0;
+}
+
+.carousel-control-next {
+  right: 0;
+}
+
+/*mission , vision */
+  .flip-card {
+            perspective: 1000px;
+        }
+
+        .flip-card-inner {
+            position: relative;
+            width: 100%;
+            height: 300px;
+            transition: transform 0.6s;
+            transform-style: preserve-3d;
+        }
+
+        .flip-card:hover .flip-card-inner {
+            transform: rotateY(180deg);
+        }
+
+        .flip-card-front, .flip-card-back {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            backface-visibility: hidden;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .flip-card-front {
+            background: #f7fafc;
+            border: 2px solid red;
+            color: #0A0350;
+        }
+
+        .flip-card-back {
+            background: #edf2f7;
+            border: 2px solid red;
+            color: #0A0350;
+            transform: rotateY(180deg);
+        }
+       
+        /* class sections */
+        @keyframes danceAnimation {
+        0% {
+            transform: rotate(0deg);
+        }
+        25% {
+            transform: rotate(10deg);
+        }
+        50% {
+            transform: rotate(-10deg);
+        }
+        75% {
+            transform: rotate(5deg);
+        }
+        100% {
+            transform: rotate(0deg);
+        }
+    }
+
+    .dance-image {
+        animation: danceAnimation 2s infinite;
+        transform-origin: center;
+    }
+        

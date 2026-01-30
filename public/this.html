@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.2/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="stylesheet" href="src/index.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <div class="navbar bg-base-100">
+        <div class="navbar-start">
+          <a class="btn btn-ghost text-xl" href="index.html">
+            <img
+              src="src/IMG/kutya_Mukama_Logo.png"
+              alt="Logo"
+              class="w-[60px]"
+            />
+            <span class="text-[#0A0350]">KM</span>
+          </a>
+        </div>
+
+        <div class="navbar-center">
+          <div class="dropdown md:hidden">
+            <div tabindex="0" role="button" class="btn btn-ghost btn-circle">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h16M4 18h7"
+                />
+              </svg>
+            </div>
+            <ul
+              tabindex="0"
+              class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+            >
+              <li><a href="index.html">Homepage</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="classes.html">Classes</a></li>
+              <li><a href="limitations.html">Challenges</a></li>
+              <li><a href="student_profile.html">Children's Profiles</a></li>
+              <li><a href="gallery.html">Gallery</a></li>
+            </ul>
+          </div>
+          <div class="navbar-end hidden md:flex">
+            <a class="btn btn-ghost btn-normal mr-2" href="index.html"
+              >Homepage</a
+            >
+            <a class="btn btn-ghost btn-normal mr-2" href="about.html">About</a>
+            <a class="btn btn-ghost btn-normal mr-2" href="classes.html"
+              >Classes</a
+            >
+            <a class="btn btn-ghost btn-normal mr-2" href="limitations.html"
+              >Challenges</a
+            >
+            <a class="btn btn-ghost btn-normal mr-2" href="student_profile.html"
+              >Children's profiles</a
+            >
+            <a class="btn btn-ghost btn-normal" href="gallery.html">Gallery</a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="bg-[#0A0350] text-white">
+      <p class="text-2xl font-bold text-center mb-4">
+        NABUTAKA GITA KUTYA MUKAMA NURSERY AND PRIMARY SCHOOL LIMITED
+      </p>
+      <p class="font-bold text-center italic">Work hard for Success</p>
+    </div>
+
+    <section class="relative">
+      <div id="carousel" class="carousel w-full h-screen">
+        <div class="carousel-item relative w-full">
+          <img src="/src/IMG/Gal1.jpg" class="w-full" />
+          <div class="absolute top-1/2 left-0 right-0 text-center">
+            <h1 class="text-4xl md:text-5xl font-bold mb-8 text-white">
+              Empowering Children Through Quality Education
+            </h1>
+            <p class="font-semibold mb-8 text-white">
+              At Kutya Mukama, we provide a nurturing environment and essential
+              skills to help children thrive.
+            </p>
+            <a href="#donate" class="btn btn-primary">Donate Now</a>
+          </div>
+        </div>
+
+        <div class="carousel-item relative w-full hidden">
+          <img src="/src/IMG/Gal2.jpg" class="w-full" />
+          <div class="absolute top-1/2 left-0 right-0 text-center">
+            <h1 class="text-4xl md:text-5xl font-bold mb-8 text-white">
+              Building a Brighter Future Together
+            </h1>
+            <p class="font-semibold mb-8 text-white">
+              Our commitment is to equip children with the tools they need to
+              succeed.
+            </p>
+            <a href="#donate" class="btn btn-primary">Donate Now</a>
+          </div>
+        </div>
+
+        <div class="carousel-item relative w-full hidden">
+          <img src="/src/IMG/Gal3.jpg" class="w-full" />
+          <div class="absolute top-1/2 left-0 right-0 text-center">
+            <h1 class="text-4xl md:text-5xl font-bold mb-8 text-white">
+              Nurturing Young Minds
+            </h1>
+            <p class="font-semibold mb-8 text-white">
+              Providing a safe and inclusive environment for learning and
+              growth.
+            </p>
+            <a href="#donate" class="btn btn-primary">Donate Now</a>
+          </div>
+        </div>
+
+        <div class="carousel-item relative w-full hidden">
+          <img src="/src/IMG/Gal4.jpg" class="w-full" />
+          <div class="absolute top-1/2 left-0 right-0 text-center">
+            <h1 class="text-4xl md:text-5xl font-bold mb-8 text-white">
+              Celebrating Diversity and Talent
+            </h1>
+            <p class="font-semibold mb-8 text-white">
+              Encouraging students to explore their unique talents and
+              interests.
+            </p>
+            <a href="#donate" class="btn btn-primary">Donate Now</a>
+          </div>
+        </div>
+
+        <div class="carousel-item relative w-full hidden">
+          <img src="/src/IMG/Gal5.jpg" class="w-full" />
+          <div class="absolute top-1/2 left-0 right-0 text-center">
+            <h1 class="text-4xl md:text-5xl font-bold mb-8 text-white">
+              Join Us in Making a Difference
+            </h1>
+            <p class="font-semibold mb-8 text-white">
+              Together, we can provide a brighter future for our children.
+            </p>
+            <a href="#donate" class="btn btn-primary">Donate Now</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="text-center my-8">
+      <h1 class="text-3xl md:text-4xl text-[#0A0350] font-bold fly-and-move">
+        39 YEARS OF PROVIDING QUALITY EDUCATION
+      </h1>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 rounded-2xl mt-8">
+      <section
+        class="history-container bg-gray-100 py-8 md:py-16 px-4 md:px-8 rounded-lg shadow-md"
+      >
+        <h2
+          class="text-2xl md:text-3xl text-[red] font-bold text-center mb-6 md:mb-12"
+        >
+          Glad to have you here
+        </h2>
+
+        <div
+          class="history-content max-h-48 overflow-hidden transition-all duration-500"
+        >
+          <p class="text-base mb-4 text-[#5F6368]">
+            Welcome to Kutya Mukama Nursery and Primary School. A private
+            elementary school licensed and registered by the Ministry of
+            Education and Sports. Located in Gitta village, Kasangati Town
+            Council, Wakiso district, 5Km off Gayaza-Zirobwe Road, the school
+            stands as a beacon of learning offering a warm and welcoming
+            environment. Our dedicated team of teaching and non-teaching staff
+            ensures a nurturing and conducive atmosphere for any child's growth.
+            At Kutya Mukama Nursery and Primary School, we go beyond academics,
+            providing a rich tapestry of activities encompassing games, sports,
+            life skills, and talent grooming.
+          </p>
+
+          <p class="mb-4">
+            Choose Kutya Mukama Nursery and Primary School, where every child is
+            given the wings to soar. Join us on the path where quality education
+            begins. Watch your child blossom into a confident and capable
+            individual. Kutya Mukama Nursery and Primary School, where education
+            meets excellence without regret.
+          </p>
+        </div>
+
+        <button
+          class="text-white bg-blue-500 hover:bg-blue-700 focus:outline-none font-bold py-2 px-4 rounded-md mt-4 block text-center w-full"
+        >
+          Show More
+        </button>
+      </section>
+      <div class="history-images">
+        <img
+          src="src/IMG/1.1.png"
+          alt="school building"
+          class="rounded-lg mb-4 w-full"
+        />
+        <img
+          src="src/IMG/2.png"
+          alt="school building"
+          class="rounded-lg mb-4 w-full"
+        />
+      </div>
+    </div>
+
+    <div
+      class="bg-gray-100 py-8 md:py-16 px-4 md:px-8 rounded-lg shadow-md mt-8 text-center"
+    >
+      <h2 class="text-2xl md:text-3xl font-bold mb-6 md:mb-12 text-[#0A0350]">
+        Meet the Visionary: Mrs. Margaret N. Nakiwala
+      </h2>
+      <p class="text-base mb-4 text-[#5F6368]">
+        Kutya Mukama Nursery and Primary School is a reflection of one woman's
+        unwavering dedication and vision: Mrs. Margaret N. Nakiwala. With a
+        foundation built on love and a commitment to community, Mrs. Nakiwala
+        has cultivated an environment where children are nurtured to become
+        their best selves. Through her tireless efforts, she has made a lasting
+        impact on countless young lives, empowering them to reach for their
+        dreams and achieve their full potential.
+      </p>
+      <img
+        src="src/IMG/1.2.png"
+        alt="Mrs. Margaret N. Nakiwala"
+        class="rounded-lg mb-4 w-full"
+      />
+    </div>
+
+    <div class="bg-[#0A0350] text-white text-center p-4 mt-8">
+      <p>
+        &copy; 2023 Kutya Mukama Nursery and Primary School. All rights
+        reserved.
+      </p>
+    </div>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const carousel = document.getElementById("carousel");
+        const items = carousel.getElementsByClassName("carousel-item");
+        let currentItem = 0;
+
+        function showNextItem() {
+          items[currentItem].classList.add("hidden");
+          currentItem = (currentItem + 1) % items.length;
+          items[currentItem].classList.remove("hidden");
+        }
+
+        setInterval(showNextItem, 5000);
+      });
+
+      document
+        .querySelector("button")
+        .addEventListener("click", function (event) {
+          const historyContent =
+            event.target.previousElementSibling.getElementsByClassName(
+              "history-content"
+            )[0];
+          historyContent.classList.toggle("max-h-48");
+        });
+    </script>
+  </body>
+</html>
